@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Multi Language Demo</string>
+
+    <string name="lanugage_select_english">Urdu</string>
+    <string name="lanugage_select">اردو</string>
+
+    <string name="share_app">بانٹیں</string>
+
+    <string name="tap_text">Select any language below :</string>
+
+</resources>

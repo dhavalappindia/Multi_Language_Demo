@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    android:padding="10dp">
+
+    <TextView
+        android:text="@string/tap_text"
+        android:textColor="#ff0000"
+        android:textSize="18sp"
+        android:id="@+id/choose_text"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/english"
+        android:text="English"
+        android:textSize="14sp"
+        android:layout_margin="3dp"
+        android:background="#FAFAFA"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hindi"
+        android:text="हिन्दी /Hindi"
+        android:textSize="14sp"
+        android:layout_margin="3dp"
+        android:background="#FAFAFA"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bangla"
+        android:text="বাংলা / Bangla"
+        android:textSize="15sp"
+        android:layout_margin="3dp"
+        android:background="#FAFAFA"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/marathi"
+        android:text="मराठी/Marathi"
+        android:textSize="14sp"
+        android:layout_margin="3dp"
+        android:background="#FAFAFA"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/telugu"
+        android:text="తెలుగు /Telugu"
+        android:textSize="14sp"
+        android:layout_margin="3dp"
+        android:background="#FAFAFA"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tamil"
+        android:text="தமிழ் / Tamil"
+        android:textSize="14sp"
+        android:layout_margin="3dp"
+        android:background="#FAFAFA"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gujarati"
+        android:text="ગુજરાતી /Gujarati"
+        android:textSize="14sp"
+        android:layout_margin="3dp"
+        android:background="#FAFAFA"/>
+ <Button
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/urdu"
+        android:text="Urdu/اردو"
+        android:textSize="14sp"
+        android:layout_margin="3dp"
+        android:background="#FAFAFA"/>
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kannada"
+        android:text="ಕನ್ನಡ /Kannada"
+        android:textSize="14sp"
+        android:layout_margin="3dp"
+        android:background="#FAFAFA"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/odia"
+        android:text="ଓଡିଆ/Odia or Oriya"
+        android:textSize="14sp"
+        android:layout_margin="3dp"
+        android:background="#FAFAFA"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/malyalam"
+        android:text="മലയാളം /Malayalam"
+        android:textSize="14sp"
+        android:layout_margin="3dp"
+        android:background="#FAFAFA"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/card_recycler_category_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+
+        android:scrollbars="vertical" />
+
+
+</LinearLayout>

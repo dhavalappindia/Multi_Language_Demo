@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Multi Language Demo</string>
+
+    <string name="lanugage_select_english">Telugu</string>
+    <string name="lanugage_select">తెలుగు</string>
+
+    <string name="share_app">వాటా</string>
+
+    <string name="tap_text">Select any language below :</string>
+</resources>
